@@ -1,0 +1,32 @@
+#为什么username这些是黑色的？？？
+#这样出问题
+#因为用中文输入法来打！！！！！
+#test_login:
+#  test_login_001:
+#   username:'itbainian'
+#   password:'itbainian123'
+#   toast:NULL
+# test_login_002:
+#   username:'itbainian1'
+#   password:'itbainian123'
+#   toast:'用户'
+# test_login_003:
+#   username:'itbainian'
+#   password:'itbainian1235'
+#   toast：'密码'
+
+ test_login:
+   test_login_001:
+     username: "itbainian"
+     password: "itbainian123"
+     toast: Null
+   test_login_002:
+     username: "itbainian1"
+     password: "itbainian123"
+     toast: "用户"
+   test_login_003:
+     username: "itbainian"
+     password: "itbainian1234"
+     toast: "密码"
+
+

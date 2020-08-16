@@ -1,0 +1,8 @@
+test_join_vip:
+  test_join_vip_001:
+    invite: 'hello'
+    keyword: "邀请码输入不正确"
+  test_join_vip_002:
+#    什么都不填，里面什么都没有，但是不能是空格，空格是有东西的
+    invite: ""
+    keyword: "请填写邀请码"

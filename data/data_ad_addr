@@ -1,0 +1,42 @@
+test_ad_address:
+  test_ad_address_001:
+    name: '张三'
+    phone: '18500001111'
+    detail_addr: '二栋二单元'
+    post: '111111'
+    toast: null
+
+  test_ad_address_002:
+    name: ''
+    phone: '18500001111'
+    detail_addr: '二栋二单元'
+    post: '111111'
+    toast: '收件人'
+
+  test_ad_address_003:
+      name: '张三'
+      phone: '1850000111'
+      detail_addr: '二栋二单元'
+      post: '111111'
+      toast: '手机号'
+
+  test_ad_address_004:
+      name: '张三'
+      phone: '18500001111'
+      detail_addr: ''
+      post: '111111'
+      toast: '地址'
+
+  test_ad_address_005:
+      name: '张三'
+      phone: '18500001111'
+      detail_addr: '二栋二单元'
+      post: '1111'
+      toast: '邮政编码'
+
+  test_ad_address_006:
+      name: '张三'
+      phone: '18500001111'
+      detail_addr: '二栋二单元'
+      post: ''
+      toast: null
